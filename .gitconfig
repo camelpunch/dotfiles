@@ -1,0 +1,13 @@
+[alias]
+    st = status
+    ci = commit
+    di = diff
+    br = branch
+    co = checkout
+[user]
+    email = andrew@camelpunch.com
+    name = Andrew Bruce
+[color]
+    ui = true
+[push]
+	default = simple
