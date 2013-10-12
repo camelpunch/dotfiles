@@ -1,7 +1,9 @@
 for f in ~/bash_includes/*.bash; do source $f; done
 
-source .bash_aliases
+source /Users/andrew/.bash_aliases
 source /Users/andrew/.rvm/scripts/rvm
+
+export PS1="\W\$ "
 
 export PATH=\
 /usr/local/bin:\
