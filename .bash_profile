@@ -1,5 +1,9 @@
 for f in ~/bash_includes/*.bash; do source $f; done
 
+if [ -f $(brew --prefix)/etc/bash_completion ]; then
+    source $(brew --prefix)/etc/bash_completion
+fi
+
 source /Users/andrew/.bash_aliases
 source /Users/andrew/.rvm/scripts/rvm
 
