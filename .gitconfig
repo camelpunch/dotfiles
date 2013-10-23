@@ -5,9 +5,17 @@
     br = branch
     co = checkout
 [user]
-    email = andrew@camelpunch.com
-    name = Andrew Bruce
+	email = andrew@camelpunch.com
+	name = Andrew Bruce
 [color]
     ui = true
 [push]
 	default = simple
+[core]
+	excludesfile = /Users/andrew/.gitignore_global
+[difftool "sourcetree"]
+	cmd = opendiff \"$LOCAL\" \"$REMOTE\"
+	path = 
+[mergetool "sourcetree"]
+	cmd = /Applications/SourceTree.app/Contents/Resources/opendiff-w.sh \"$LOCAL\" \"$REMOTE\" -ancestor \"$BASE\" -merge \"$MERGED\"
+	trustExitCode = true
