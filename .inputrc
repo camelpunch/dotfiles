@@ -4,4 +4,5 @@ $if Bash
     ## arrow down
     "\e[B":history-search-forward
     Space: magic-space
+    set completion-ignore-case on
 $endif
