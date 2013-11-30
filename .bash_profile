@@ -14,6 +14,7 @@ export PATH=\
 /Users/andrew/.rvm/gems/ruby-2.0.0-p247@global/bin:\
 /Users/andrew/.rvm/rubies/ruby-2.0.0-p247/bin:\
 /Users/andrew/.rvm/bin:\
+/Users/andrew/workspace/xctool/build/3c39a7a/Products/Release/bin:\
 /usr/local/bin:\
 /usr/local/heroku/bin:\
 /usr/bin:\
