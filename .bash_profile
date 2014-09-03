@@ -16,6 +16,7 @@ export PATH=\
 /Users/andrew/.rvm/bin:\
 /Users/andrew/workspace/xctool/build/3c39a7a/Products/Release/bin:\
 /usr/local/bin:\
+/usr/local/sbin:\
 /usr/local/heroku/bin:\
 /usr/bin:\
 /bin:\
