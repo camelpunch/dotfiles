@@ -12,7 +12,8 @@
 [push]
 	default = simple
 [core]
-	excludesfile = /Users/andrew/.gitignore_global
+    excludesfile = /Users/andrew/.gitignore_global
+    editor = vim
 [difftool "sourcetree"]
 	cmd = opendiff \"$LOCAL\" \"$REMOTE\"
 	path = 
