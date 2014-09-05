@@ -1,1 +1,1 @@
-export CDPATH=..:/Users/andrew/workspace:$CDPATH
+export CDPATH=..:$HOME/workspace:$CDPATH
