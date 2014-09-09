@@ -9,3 +9,5 @@ if which rbenv > /dev/null; then eval "$(rbenv init -)"; fi
 source $HOME/.bash_aliases
 
 export PS1="\W\$ "
+export GOPATH=$HOME/go
+export PATH="/usr/local/bin:$PATH:$GOPATH/bin"
