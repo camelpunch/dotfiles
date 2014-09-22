@@ -11,6 +11,7 @@ source $HOME/.bash_aliases
 export PS1="\W\$ "
 export GOPATH=$HOME/go
 export GROOVY_HOME=/usr/local/opt/groovy/libexec
+export DOCKER_HOST=tcp://192.168.59.103:2375
 export PATH="/usr/local/bin:$PATH:$GOPATH/bin"
 
 #THIS MUST BE AT THE END OF THE FILE FOR GVM TO WORK!!!
