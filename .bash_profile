@@ -12,6 +12,13 @@ export GROOVY_HOME=/usr/local/opt/groovy/libexec
 export DOCKER_HOST=tcp://192.168.59.103:2375
 export PATH="/usr/local/bin:$PATH:$GOPATH/bin"
 
+# avoid duplicates..
+export HISTCONTROL=ignoredups:erasedups
+# append history entries..
+shopt -s histappend
+# After each command, save and reload history
+export PROMPT_COMMAND="${PROMPT_COMMAND:+$PROMPT_COMMAND$'\n'}history -a; history -c; history -r"
+
 source /usr/local/opt/chruby/share/chruby/chruby.sh
 source /usr/local/opt/chruby/share/chruby/auto.sh
 
