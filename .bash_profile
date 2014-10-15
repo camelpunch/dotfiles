@@ -7,6 +7,10 @@ fi
 source $HOME/.bash_aliases
 
 export PS1="\W\$ "
+export HISTCONTROL=ignoredups:erasedups
+export HISTSIZE=9999
+export HISTFILESIZE=999999
+export HISTFILE="$HOME/.bash_history"
 export GOPATH=$HOME/go
 export GROOVY_HOME=/usr/local/opt/groovy/libexec
 export DOCKER_HOST=tcp://192.168.59.103:2375
