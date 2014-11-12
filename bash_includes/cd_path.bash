@@ -1,1 +1,1 @@
-export CDPATH=..:$HOME/workspace:$CDPATH
+export CDPATH=..:$HOME/workspace:$HOME/go/src:$CDPATH
