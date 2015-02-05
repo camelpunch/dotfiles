@@ -1,0 +1,1 @@
+export DOCKER_HOST=tcp://192.168.121.135:4243

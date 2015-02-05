@@ -13,7 +13,6 @@ export HISTFILESIZE=999999
 export HISTFILE="$HOME/.bash_history"
 export GOPATH=$HOME/go
 export GROOVY_HOME=/usr/local/opt/groovy/libexec
-export DOCKER_HOST=tcp://192.168.59.103:2375
 export PATH="/usr/local/bin:$PATH:$GOPATH/bin"
 
 source /usr/local/opt/chruby/share/chruby/chruby.sh
