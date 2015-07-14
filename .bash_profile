@@ -13,7 +13,7 @@ export HISTFILESIZE=999999
 export HISTFILE="$HOME/.bash_history"
 export GOPATH=$HOME/go
 
-source ~/.smtp_credentials.sh
+source ~/.mail_credentials.sh
 
 source /usr/local/opt/chruby/share/chruby/chruby.sh
 source /usr/local/opt/chruby/share/chruby/auto.sh
