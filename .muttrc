@@ -1,0 +1,16 @@
+set realname = "Andrew Bruce"
+set from = "andrew@andrewbruce.net"
+set use_from = yes
+
+set imap_user = 'andrew@andrewbruce.net'
+set imap_pass = $IMAP_PASSWORD
+
+set smtp_url = smtp://$imap_user:$imap_pass@smtp.gmail.com:587/
+set ssl_force_tls = yes
+set smtp_authenticators = 'gssapi:login'
+
+set record = ""
+set spoolfile = imaps://imap.gmail.com/INBOX
+set folder = imaps://imap.gmail.com
+set postponed = "imaps://imap.gmail.com/[Gmail]/Drafts"
+set mbox = "imaps://imap.gmail.com/[Gmail]/All Mail"
