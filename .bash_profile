@@ -15,6 +15,8 @@ export GOPATH=$HOME/go
 export GROOVY_HOME=/usr/local/opt/groovy/libexec
 export PATH="/usr/local/bin:$PATH:$GOPATH/bin"
 
+source ~/.smtp_credentials.sh
+
 source /usr/local/opt/chruby/share/chruby/chruby.sh
 source /usr/local/opt/chruby/share/chruby/auto.sh
 
