@@ -5,7 +5,7 @@
     br = branch
     co = checkout
 [user]
-	email = andrew@camelpunch.com
+	email = me@andrewbruce.net
 	name = Andrew Bruce
 [color]
     ui = true
