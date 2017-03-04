@@ -1,6 +1,6 @@
 [alias]
     st = status
-    ci = commit
+    ci = commit -v
     di = diff
     br = branch
     co = checkout
